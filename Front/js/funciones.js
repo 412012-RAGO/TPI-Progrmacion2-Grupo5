@@ -529,7 +529,7 @@ export async function crearFormFuncion(peliculas, salas, idFuncion) {
         headers: {
           "Content-Type": "application/json",
         },
-      //credentials: "include",
+        credentials: "include",
         body: JSON.stringify(funcionData),
       });
 
